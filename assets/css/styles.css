@@ -70,10 +70,7 @@ ul{
     margin: 0 15px;
     border-radius: 10px;
 }
-.products article .img_product:hover{
-    background: rgba(0, 0, 0, 0.473);
-    opacity: .95;
-}
+/*-----HOVER----*/
 .hover:hover{
   -webkit-transform:scale(1.01);
   -moz-transform:scale(1.01);
@@ -81,6 +78,12 @@ ul{
   -o-transform:scale(1.01);
   transform:scale(1.01);
 }
+
+.img_product:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
 
 /*------QUEIENES SOMOS-----*/
 .cabecera{
