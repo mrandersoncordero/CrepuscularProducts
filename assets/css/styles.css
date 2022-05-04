@@ -81,11 +81,11 @@ ul{
     margin-bottom: 10px;
 }
 .hover:hover{
-  -webkit-transform:scale(1.01);
-  -moz-transform:scale(1.01);
-  -ms-transform:scale(1.01);
-  -o-transform:scale(1.01);
-  transform:scale(1.01);
+  -webkit-transform:scale(1.03);
+  -moz-transform:scale(1.03);
+  -ms-transform:scale(1.03);
+  -o-transform:scale(1.03);
+  transform:scale(1.03);
 }
 
 /*---INFORMACION DE LOS PRODUCTOS---*/
@@ -100,8 +100,8 @@ ul{
 }
 
 .img_product:hover {
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
+    -webkit-transform:scale(1.02);
+    transform:scale(1.02);
 }
 
 
