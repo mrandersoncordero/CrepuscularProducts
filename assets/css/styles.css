@@ -78,6 +78,7 @@ ul{
 .hover hr{
     width: 90%;
     margin: auto;
+    margin-bottom: 10px;
 }
 .hover:hover{
   -webkit-transform:scale(1.01);
@@ -89,12 +90,15 @@ ul{
 
 /*---INFORMACION DE LOS PRODUCTOS---*/
 .info-products{
-    float:left;
+    float: left;
+    display: block;
     margin-left: 20px;
 }
 .info-products li{
     padding: 2px;
+    padding-right: 40px;
 }
+
 .img_product:hover {
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
