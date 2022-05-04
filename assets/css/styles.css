@@ -49,6 +49,7 @@ ul{
     text-align: center;
     font-size: 25px;
     color: #F87E20;
+    margin-bottom: -10px;
 }
 .products article p{
     font-family: 'Ubuntu', sans-serif;
@@ -71,6 +72,13 @@ ul{
     border-radius: 10px;
 }
 /*-----HOVER----*/
+.hover{
+    height: 100px;
+}
+.hover hr{
+    width: 90%;
+    margin: auto;
+}
 .hover:hover{
   -webkit-transform:scale(1.01);
   -moz-transform:scale(1.01);
@@ -79,6 +87,14 @@ ul{
   transform:scale(1.01);
 }
 
+/*---INFORMACION DE LOS PRODUCTOS---*/
+.info-products{
+    float:left;
+    margin-left: 20px;
+}
+.info-products li{
+    padding: 2px;
+}
 .img_product:hover {
     -webkit-transform:scale(1.1);
     transform:scale(1.1);

@@ -3,8 +3,8 @@
     overflow: hidden;
     box-shadow: 0 0 0 10px #fff,
                 0 15px 50px;
+                position: relative;
 }
-
 .slider{
     display: flex;
     width: 400%;
